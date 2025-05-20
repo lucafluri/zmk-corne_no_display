@@ -297,8 +297,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '7':
@@ -347,35 +347,35 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
-- p: [30, 31]
+- p: [26, 27]
   k: Ctl+C
-- p: [31, 32]
+- p: [27, 28]
   k: Ctl+V
-- p: [32, 30]
+- p: [26, 28]
   k: Ctl+X
-- p: [8, 9]
+- p: [7, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [9, 10]
+- p: [8, 9]
   k: $$mdi:backspace-reverse-outline$$
-- p: [23, 24]
+- p: [19, 20]
   k: {t: Sft+8, s: \}
-- p: [24, 25]
+- p: [20, 21]
   k: {t: Sft+9, s: Sft+\}
-- p: [38, 37]
+- p: [31, 32]
   k: {t: 'AltGr+[', s: AltGr+.}
-- p: [39, 38]
+- p: [32, 33]
   k: {t: 'AltGr+]', s: AltGr+\}
-- p: [8, 23]
+- p: [7, 19]
   k: KP PLUS
-- p: [23, 37]
+- p: [19, 31]
   k: KP MINUS
-- p: [9, 24]
+- p: [8, 20]
   k: KP MULTIPLY
-- p: [24, 38]
+- p: [20, 32]
   k: KP DIVIDE
-- p: [44, 45]
+- p: [44, 45, 39, 38]
   k: sys
-- p: [10, 25]
+- p: [9, 21]
   k: AltGr+|
-- p: [25, 39]
+- p: [21, 33]
   k: AltGr+7
